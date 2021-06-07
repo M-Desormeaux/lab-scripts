@@ -1,7 +1,7 @@
 from wakeonlan import send_magic_packet
 import json
 
-with open("LC_Computers.json") as file:
+with open("Computers.json") as file:
     data = json.load(file)
 
 for address in data.values():

@@ -1,7 +1,7 @@
 from subprocess import run
 import json
 
-with open("LC_Computers.json") as file:
+with open("Computers.json") as file:
     data = json.load(file)
 
 for name in data.keys():
